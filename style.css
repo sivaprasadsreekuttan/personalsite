@@ -1,0 +1,129 @@
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather',cursive;
+  color: #40514E;
+
+}
+h1{
+  color: #66BFBF;
+  font-size: 5.625 rem;
+  line-height: 3;
+  font-family: 'Sacramento',cursive;
+  margin-top: 0;
+  width: 40%;
+  margin: 0 auto 0 auto;
+}
+h2{
+  font-weight: normal;
+    color: #66BFBF;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 2.5rem;
+
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat',sans-serif;
+
+}
+*.top-container{
+  padding-top: 100px;
+  background-color: #E4F9F5;
+  position: relative;
+}
+*.middle-container
+{
+  padding-top: 100px;
+  background-color:none;
+  width: 200 px;
+  height : 200 px;
+}
+*.bottom-container{
+  padding-top: 50PX;
+  background-color: #66BFBF ;
+  width:200 px;
+  height: 200 px;
+
+}
+.bottom-cloud
+{
+  position: absolute;
+  left:300px;
+   top:300px;
+}
+.top-cloud
+{
+
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+.skill-row
+{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.photoshop{
+  width: 50%;
+  float: left;
+  margin-right: 30px;
+}
+.movies{
+  width: 25%;
+  float: right;
+    margin-left: 30px;
+}
+
+.sub{
+  line-height: 1;
+  font-size:  2 rem;
+  font-weight: bold;
+}
+.contact-me{
+
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+.myButton {
+	box-shadow: 0px 1px 0px 0px #276873;
+	background:linear-gradient(to bottom, #326da8 5%, #422f91 100%);
+	background-color:#326da8;
+	border-radius:6px;
+	border:1px solid #29668f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Montserrat;
+	font-size:19px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #422f91 5%, #326da8 100%);
+	background-color:#422f91;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.a
+{
+  color: #11999E;
+  font-family: Montserrat; sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color: #EAF6F6;
+  font-size:0.75 rem;
+}
